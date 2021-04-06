@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.outer{
+    display: flex;
+    
+}
+.reg form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+.reg form h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.reg form label{
+    display: flex;
+    flex-direction: column;
+}
+.reg form label input{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius:15px;
+}
+.reg form .policy{
+    display: block;
+}
+.reg form .policy input{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.reg form button{
+    width: 100px;
+    margin-top: 10px;
+    padding:5px;
+    font-size: 15px;
+    border-radius: 15px;
+    align-self: center;
+    color: black;
+    /*background: ;
+    border: ;
+    */
+}
+.reg form .login{
+    margin-top: 10px;
+    align-self: center;
+}
+.reg form .signup{
+    margin-top: 10px;
+    align-self: center;
+}
