@@ -1,0 +1,121 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*font-family: "https://fonts.google.com/specimen/Playfair+Display?preview.text_type=custom";*/
+    
+}
+
+.nav{
+    background:#212529;
+    
+}
+@media only screen and (min-width: 991px){
+    #dropdown{
+        margin-right: 0%;
+        margin-left: 30%;
+    }
+    .collapse form input{
+        width: 20rem;
+    }
+    
+}
+
+#dropdown1{
+
+    margin-right: 20px;
+}
+
+.nav a{
+    color: white;
+}
+
+.navbar button{
+   color: white;
+}
+#myBtn{
+    color: white;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
+.navbar button:hover{
+    background-color:#394A51;
+}
+.carousel{
+    max-height: 50vh !important;
+    margin: 0px 7%;
+    align-items: center;
+}
+.carousel img{
+    height: 50vh;
+}
+h3{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.row{
+    margin: 0px 7%;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding:10px;
+}
+.column img{
+    width: 100%;
+    height: 350px;
+}
+.seeall{
+    margin: 3px 7%;
+    text-align: end;
+} 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media only screen and (max-width: 920px){
+    .column img{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .row{
+        margin: 5px 7%;
+    } 
+    .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+    }
+    .column img{
+        width: 100%;
+        height: 250px;
+    }
+    
+}
+@media only screen and (max-width: 426px){
+    .column img{
+        width: 100%;
+        height: 200px;
+    }
+    .carousel img{
+        height: 30vh;
+    }
+}
+#footer-links-container ul {
+    list-style-type: none;
+    padding-left: 0px !important;
+    
+}
+  
+#footer-links-container ul > :first-child {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#footer-links-container ul {
+    list-style-type: none;
+    padding-left: 30px !important;
+}  
